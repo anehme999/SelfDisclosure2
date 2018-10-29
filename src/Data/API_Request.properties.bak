@@ -1,0 +1,15 @@
+#Security
+AT_04197={"name":"#RoleName","permissionSets":[{"id":#PermissionID,"name":"#PermissionName","workGroups":["APC","Citi","EME","LAT"]}],"users":[{"id":"#User"}]}
+AT_04109_04199={ "name": "#PermissionName", "permissions": { "Margin": ["Read"], "Portfolio": ["Read"], "Jobs": ["Read"] } }
+AT_04329={"name":"#RoleName","permissionSets":[{"id":#PermissionID,"name":"#PermissionName","workGroups":["APC","Citi","EME","LAT"]}],"users":[{"id":"#User"}]}
+AT_04330={"name":"#RoleName","permissionSets":[{"id":#PermissionID,"name":"#PermissionName","workGroups":["APC","Citi","EME","LAT"]}],"users":[{"id":"#User"}]}
+
+#Job
+AT_03803={"definitionId": 5,"beanName": "marginSODSummary","templateName": "Margin SOD-Send Email", "description": "Keep it simple","paramVals":[{"name": "email","type": "Email","value": "anilkumar.bhatiya@omgeo.com","mandatory": "false"},{"name": "workGroupName","type": "String","value": "NAM","mandatory": "false"}]}
+AT_03804={"templateId": 5,"definitionId": 1,"beanName": "marginEODFailureSummary","templateName": "Margin EOD","description": "This is edited","status": "active","paramVals": [{"paramId": 1,"name": "email","type": "Email","value": "PSham@omgeo.com","mandatory": "false"}]}
+AT_03814={"template":{"templateId":5,"definitionId":1,"beanName":"marginEODFailureSummary","templateName":"Margin EOD","description":"Margin EOD","updateOwnerId":"superuser","updateTimestamp":"2016-07-26T11:43:48.807Z","status":"active","paramVals":[{"paramId":1,"name":"email","type":"Email","value":"PSham@dtcc.com","mandatory":"false"},{"paramId":2,"name":"workGroup","type":"String","value":"NAM","mandatory":"false"},{"paramId":3,"name":"businessDate","type":"Date","value":"2016-07-25T18:30:00.000Z","mandatory":"false"}]}}
+
+
+
+
+
